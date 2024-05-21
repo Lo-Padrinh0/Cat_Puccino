@@ -1,0 +1,259 @@
+/* geral */
+:root{
+    --branco : #ffffff;
+    --rosa : #ff67d9;
+    --preto : #000000;
+    --cinzaClaro: #686767;
+}
+
+/* header */
+header{
+    background-color: var(--preto);
+}
+
+/* main */
+main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 20%, rgb(122, 14, 113) 100%);
+}
+
+.nav-link, .active .navbar-link.show{
+    color: var(--branco);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--branco);
+}
+
+.navbar-nav{
+    --bs-nav-link-hover-color: var(--rosa);
+}
+
+.active{
+    border-bottom: var(--rosa) 3px solid;
+}
+
+#catalogo h5{
+    color: var(--rosa);
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+/* localização */
+#lock{
+    border: 2px solid var(--rosa);
+    width: 60%;
+}
+
+#lock h4{
+    color: var(--branco);
+}
+
+#maps{
+    width: 100%;
+    height: 100%;
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--rosa)!important;
+}
+
+/* footer */
+footer{
+    background-color: var(--preto);
+}
+
+/* menu lateral */
+#menuLateral{
+    width: 300px;
+    background-color: #000000cc;
+}
+
+.input-group input,.input-group span{
+    border: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 0%; 
+}
+
+input::placeholder{
+    color: var(--branco)!important;
+}
+
+
+/* SOBRE NÓS */
+#mainsobrenos{
+    padding-bottom: 15px;
+}
+
+#mainsobrenos h3{
+    color: var(--branco);
+    border-bottom: 2px solid ;
+}
+
+#mainsobrenos h4{
+    color: var(--branco);
+}
+
+#mainsobrenos h5{
+    height: 100%;
+    color: var(--rosa);
+}
+
+/* mobile */
+#apresentacao{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+#objetivo{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+#dedicacao{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+#finalizacao{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+/* Pc */
+#apresentacaoPc{
+    width: 60%;
+    height: 400px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+#apresentacaoPc img{
+    height: 98%;
+}
+
+#pcApresentacao{
+    margin-left: 170px;
+    margin-right: 100px;
+}
+
+#objetivoPc{
+    width: 60%;
+    height: 400px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+#objetivoPc img{
+    height: 98%;
+}
+
+#pcObjetivo{
+    margin-left: 100px;
+    margin-right: 170px;
+}
+
+#dedicacaoPc{
+    width: 60%;
+    height: 400px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+#dedicacaoPc img{
+    height: 98%;
+}
+
+#pcDedicacao{
+    margin-left: 170px;
+    margin-right: 100px;
+}
+
+#finalizacaoPc{
+    width: 60%;
+    height: 400px;
+    padding: 10px;
+    background-color: #00000079;
+    border: 1px solid #ff67d9;
+}
+
+#finalizacaoPc img{
+    height: 98%;
+}
+
+#pcFinalizacao{
+    margin-left: 100px;
+    margin-right: 170px;
+}
+
+
+/* CATALOGO */
+#maincatalogo{
+    padding-bottom: 15px;
+}
+
+#catalogo h3, #catalogo h4{
+    color: var(--laranja);
+}
+
+.card h5{
+    color: var(--verde);
+}
+
+.card-body button{
+    background-color: var(--rosa)!important;
+    border-radius: 0%!important;
+    border: none!important;
+    color: var(--preto)!important;
+}
+
+#adote h3{
+    color: var(--rosa);
+}
+
+#adotePet h4{
+    color: var(--azul);
+}
+
+.btn-close{
+    background: #fffffffa var(--bs-btn-close-bg) center / 1em auto no-repeat
+}
+
+#produtos{
+    border: 2px solid var(--branco);
+    color: var(--rosa)!important;
+    background-color: #000000ba !important;
+}
+
+#imgprodutos{
+    border: 2px solid var(--branco);
+    border-radius: 5px!important;
+}
+
+/* FRANQUEADOS */
+#catalogofranqueados{
+    margin-bottom: 10px;
+}
+
+#catalogofranqueados h4{
+    color: var(--rosa);
+}
